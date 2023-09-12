@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./hero-img3.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    padding: 20px 200px;
+}
+
+
+
+.navigation {
+    display: flex ;
+    justify-content: space-around;
+}
+
+.logo {
+    width: 20%;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+
+.nav-list {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px 20px;
+
+}
+
+
+#login {
+    background-color: #257CFF;
+    padding: 10px 35px;
+    border-radius: 20px;
+    transition: 0.2s all ease; 
+}
+
+#login:hover {
+    background-color: #F45A2A;
+    color: black;
+
+}
+
+#register {
+    padding: 10px 20px;
+    transition: 0.2s all ease; 
+    border-radius: 20px;
+
+}
+
+#register:hover {
+    padding: 10px 20px;
+    background-color: #257CFF;
+
+}
+
+.hero-heading {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+}
+
+.hero-heading h1 {
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+
+.blog-container {
+    background-color: #ededed;
+    padding: 70px 200px;
+}
+
+
+.blog-container h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.blog-card {
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+.blog-card img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.blog-content {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    margin: 30px;
+    max-height: 324px; 
+    padding: 15px 10px;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.blog-content p {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+.headers {
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headers h4 {
+    font-size: 10px;
+}
+
+
+#readMore {
+    background-color: #257CFF;
+    padding: 7px 35px;
+    border-radius: 20px;
+    transition: 0.2s all ease;
+    width: 30%; 
+}
+
+#readMore:hover {
+    background-color: #F45A2A;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+.added-blogs {
+    background-color: red;
+}

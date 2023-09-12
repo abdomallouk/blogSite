@@ -1,0 +1,104 @@
+{
+  "users": [
+    {
+      "name": "abdbdab",
+      "email": "malloukab999@gmail.com",
+      "password": "acsaafa",
+      "imagePath": "/uploads/samsung-2023-1.jpeg",
+      "id": 1
+    },
+    {
+      "name": "malloukab999@gmail.com",
+      "email": "malloukab999@gmail.com",
+      "password": "malloukab999@gmail.com",
+      "imagePath": "/uploads/iphone.jpg",
+      "id": 2
+    },
+    {
+      "name": "abdo",
+      "email": "malloukab999@gmail.com",
+      "password": "abdo",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 3
+    },
+    {
+      "name": "mallouk80",
+      "email": "malloukab999@gmail.com",
+      "password": "mallouk80",
+      "imagePath": "/uploads/iphone.jpg",
+      "id": 4
+    },
+    {
+      "name": "hero-container",
+      "email": "malloukab999@gmail.com",
+      "password": "hero-container",
+      "imagePath": "/uploads/hero-img.jpg",
+      "id": 5
+    },
+    {
+      "name": "Abdo",
+      "email": "malloukab999@gmail.com",
+      "password": "Abdo",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 6
+    },
+    {
+      "name": "ilyas",
+      "email": "ilyas@gmail.com",
+      "password": "ilyas",
+      "imagePath": "/uploads/me.jpg",
+      "id": 7
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Parisian Adventure",
+      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
+      "author": "Smith",
+      "imagePath": "/uploads/hero-imag2.jpg",
+      "id": 1
+    },
+    {
+      "title": "Bali Bliss",
+      "content": "Bali is a tropical paradise that exceeded all our expectations. From the lush rice terraces in Ubud to the vibrant nightlife in Seminyak, this Indonesian island offers a diverse range of experiences. We explored ancient temples, surfed the azure waves, and enjoyed traditional Balinese cuisine. One highlight was the sunrise trek to Mount Batur, where we watched the sun emerge from behind the clouds. Bali's beauty is unparalleled, and we left with a sense of peace and gratitude for this unforgettable journey.",
+      "author": "Daniel",
+      "imagePath": "/uploads/hero-img.jpg",
+      "id": 2
+    },
+    {
+      "title": "Bali Bliss",
+      "content": "Bali is a tropical paradise that exceeded all our expectations. From the lush rice terraces in Ubud to the vibrant nightlife in Seminyak, this Indonesian island offers a diverse range of experiences. We explored ancient temples, surfed the azure waves, and enjoyed traditional Balinese cuisine. One highlight was the sunrise trek to Mount Batur, where we watched the sun emerge from behind the clouds. Bali's beauty is unparalleled, and we left with a sense of peace and gratitude for this unforgettable journey.",
+      "author": "Daniel",
+      "imagePath": "/uploads/hero-img.jpg",
+      "id": 3
+    },
+    {
+      "title": "Parisian Adventure",
+      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
+      "author": "Smith",
+      "imagePath": "/uploads/hero-imag2.jpg",
+      "id": 4
+    },
+    {
+      "title": "10 top places to travel to ",
+      "content": "The bustling metropolis where tradition meets modernity, is a city like no other. Our journey began at the historic Asakusa district, where the scent of street food filled the air. We visited the Senso-ji Temple, where we made wishes and explored the Nakamise Shopping Street. The neon lights of Shibuya Crossing left us in awe, as we navigated through the sea of people. A day trip to Mount Fuji provided breathtaking views, and we savored sushi at the famous Tsukiji Fish Market. Our adventure in Tokyo was an unforgettable whirlwind.",
+      "author": "Abdo Mallouk ",
+      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
+      "id": 5
+    },
+    {
+      "title": "A Whirlwind Adventure in Tokyo",
+      "content": "Tokyo, the bustling metropolis where tradition meets modernity, is a city like no other. Our journey began at the historic Asakusa district, where the scent of street food filled the air. We visited the Senso-ji Temple, where we made wishes and explored the Nakamise Shopping Street. The neon lights of Shibuya Crossing left us in awe, as we navigated through the sea of people. A day trip to Mount Fuji provided breathtaking views, and we savored sushi at the famous Tsukiji Fish Market. Our adventure in Tokyo was an unforgettable whirlwind.",
+      "author": "Daniel",
+      "imagePath": "/uploads/hero-img3.jpg",
+      "id": 6
+    },
+    {
+      "title": "This  is the blog of ilyas",
+      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
+      "author": "Ilyas",
+      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
+      "id": 7
+    }
+  ]
+}

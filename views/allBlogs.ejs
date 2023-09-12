@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main4.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="hero-container">
+        <nav class="navigation">
+            <div class="logo">
+                <img src="./logo.png" alt="">
+            </div>
+            <div class="nav-list">
+                <a href="#">Home</a>
+                <a href="#">About Us </a>
+                <a href="/register" id="register"> Create Account</a>
+                <a href="/login" id="login"> LogIn</a>
+            </div>
+        </nav>
+
+        <div class="hero-heading">
+          <h1> Discover Wonderfull Places</h1>
+          
+        </div>
+    </div>
+
+
+    <div class="blog-container">     
+        <h1>All Travel Blogs</h1>
+        
+        <div class="blog-card">  
+            <%  blogs.forEach(b => { %>
+                <div  id="<%=b.id %>" class="blog-content">
+                    <div class="headers">  
+                        <h2>Title: <%=b.title %></h2>
+                        <p> Content: <%=b.content %></p>
+                        <h4> Blog Author: <%=b.author %></h4>
+                        <a href="#" id="readMore"> Read More</a>
+                    </div>
+                    <img src="<%=b.imagePath %>" alt="">
+                </div>
+            <% }) %>
+        </div>
+    </div>
+    
+</body>
+</html>

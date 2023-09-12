@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main3.css">
+    <title>AddBlog</title>
+</head>
+<body>
+
+    <div class="container" > 
+        <nav class="nav-bar">
+            <img src="../logo.png" id="logo" alt="">
+            <a href="/allBlogs">Home</a>
+            <a href="/allBlogs">All blogs</a>
+            <a href="#">About Us</a>
+            <div class="profile">
+                <img src="<%=image%>" id="prof-img" alt="">
+                <p><%= name  %></p>
+            </div>
+            
+        </nav>
+    </div>
+
+    <div class="form-container">  
+        <h1 class="heading1">Create Your Travel Blog</h1>
+        <div class="form"> 
+            <form action="/addBlog" method="POST" enctype="multipart/form-data">
+                <input type="text" id="title" name="title" required placeholder="Enter your Blog title">
+                <br>
+                <input type="text" id="content" name="content" required placeholder="Enter your Blog content">
+                <br>
+                <input type="text" id="author" name="author" required placeholder="Enter your author name">
+                <br>
+                <input type="file" id="image" name="image" accept="image/*" required>
+                <br>            
+                <input type="submit" value="Add-Blog" id="addBlog">
+            </form>
+    </div>
+
+    </div>
+
+    <div class="added-blogs">
+        <div class="card"></div>
+    </div>
+
+
+</body>
+</html>
