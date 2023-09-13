@@ -7,7 +7,7 @@ exports.logger = (req,res,next)=>{
   
     try{
         const verify_token = jwt.verify(token,"strongSecret")
-        console.log('token',verify_token)
+        // console.log('token',verify_token)
         const {name,iat,image} = verify_token
         req.name = name
         req.iat = iat

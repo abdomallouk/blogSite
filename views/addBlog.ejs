@@ -41,7 +41,25 @@
     </div>
 
     <div class="added-blogs">
-        <div class="card"></div>
+        <h1>All Added blogs </h1>
+        <div class="card">  
+            <%  blogs.forEach(b => { %>
+                <div  id="<%=b.id %>" class="blog-content">
+                    <img src="<%=b.imagePath %>" alt="" id="blog-img">
+                    <div class="headers">  
+                        <h2><%=b.title %></h2>
+                        <p> <%=b.content %></p>
+                        <h4> Blog Author: <%=b.author %></h4>
+                        <div class="cta">
+                            <a href="#" id="editBlog"> Edit Blog</a>
+                            <a href="#" id="deleteBlog"> Delete Blog</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            <% }) %>
+        </div>
     </div>
 
 

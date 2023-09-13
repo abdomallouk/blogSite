@@ -48,6 +48,55 @@
       "password": "ilyas",
       "imagePath": "/uploads/me.jpg",
       "id": 7
+    },
+    {
+      "name": "abdo-mallouk",
+      "email": "malloukab77@gmail.com",
+      "password": "abdo-mallouk",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 8
+    },
+    {
+      "name": "ilyas-mallouk",
+      "email": "malloukab77@gmail.com",
+      "password": "ilyas-mallouk",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 9
+    },
+    {
+      "name": "ilyasMallouk",
+      "email": "malloukab77@gmail.com",
+      "password": "ilyasMallouk",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 10
+    },
+    {
+      "name": "ilyas-abdo",
+      "email": "malloukab999@gmail.com",
+      "password": "ilyas-abdo",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 11
+    },
+    {
+      "name": "abdelbasset6",
+      "email": "malloukab77@gmail.com",
+      "password": "abdelbasset6",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 12
+    },
+    {
+      "name": "abdelbasset7",
+      "email": "malloukab999@gmail.com",
+      "password": "abdelbasset7",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 13
+    },
+    {
+      "name": "abdoM",
+      "email": "malloukab77@gmail.com",
+      "password": "abdoM",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 14
     }
   ],
   "blogs": [
@@ -99,6 +148,62 @@
       "author": "Ilyas",
       "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
       "id": 7
+    },
+    {
+      "title": "The 10 top amazing places to visit ",
+      "content": "Bali is a tropical paradise that exceeded all our expectations. From the lush rice terraces in Ubud to the vibrant nightlife in Seminyak, this Indonesian island offers a diverse range of experiences. We explored ancient temples, surfed the azure waves, and enjoyed traditional Balinese cuisine. One highlight was the sunrise trek to Mount Batur, where we watched the sun emerge from behind the clouds. Bali's beauty is unparalleled, and we left with a sense of peace and gratitude for this unforgettable journey.",
+      "author": "Johan ",
+      "imagePath": "/uploads/hero-img.jpg",
+      "id": 8
+    },
+    {
+      "title": "The most inspiring places to visit   ",
+      "content": "Rabat is a tropical paradise that exceeded all our expectations. From the lush rice terraces in Ubud to the vibrant nightlife in Seminyak, this Indonesian island offers a diverse range of experiences. We explored ancient temples, surfed the azure waves, and enjoyed traditional Balinese cuisine. One highlight was the sunrise trek to Mount Batur, where we watched the sun emerge from behind the clouds. Bali's beauty is unparalleled, and we left with a sense of peace and gratitude for this unforgettable journey.",
+      "author": "Jim ",
+      "imagePath": "/uploads/hero-imag2.jpg",
+      "id": 9
+    },
+    {
+      "title": "The most inspiring places to visit in 2023",
+      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
+      "author": "Johan ",
+      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
+      "id": 10
+    },
+    {
+      "title": "amazing places ",
+      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
+      "author": "abdo",
+      "imagePath": "/uploads/hero-img3.jpg",
+      "id": 11
+    },
+    {
+      "title": "The 10 most Wonderfull Cities",
+      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
+      "author": "Ilyas",
+      "imagePath": "/uploads/1665590421705-removebg-preview.png",
+      "id": 12
+    },
+    {
+      "title": "Amazing countries ",
+      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
+      "author": "mallouk",
+      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
+      "id": 13
+    },
+    {
+      "title": "Amazing cities ",
+      "content": "The bustling metropolis where tradition meets modernity, is a city like no other. Our journey began at the historic Asakusa district, where the scent of street food filled the air. We visited the Senso-ji Temple, where we made wishes and explored the Nakamise Shopping Street. The neon lights of Shibuya Crossing left us in awe, as we navigated through the sea of people. A day trip to Mount Fuji provided breathtaking views, and we savored sushi at the famous Tsukiji Fish Market. Our adventure in Tokyo was an unforgettable whirlwind.",
+      "author": "Abdo ",
+      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
+      "id": 14
+    },
+    {
+      "title": "The most wonderful places in the planet ",
+      "content": "The bustling metropolis where tradition meets modernity, is a city like no other. Our journey began at the historic Asakusa district, where the scent of street food filled the air. We visited the Senso-ji Temple, where we made wishes and explored the Nakamise Shopping Street. The neon lights of Shibuya Crossing left us in awe, as we navigated through the sea of people. A day trip to Mount Fuji provided breathtaking views, and we savored sushi at the famous Tsukiji Fish Market. Our adventure in Tokyo was an unforgettable whirlwind.",
+      "author": "Mallouk",
+      "imagePath": "/uploads/hero-imag2.jpg",
+      "id": 15
     }
   ]
 }

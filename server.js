@@ -1,18 +1,15 @@
 const express = require('express');
-const { body, validationResult } = require('express-validator');
-const multer = require('multer'); 
-const jwt = require('jsonwebtoken');
-const xss = require('xss');
 const jsonServer = require('json-server');
-const axios = require('axios')
 const cookies = require('cookie-parser')
 const path = require('path');
-const {createAccount, verifyAccount, showLogin, showRegister, showDashboard} = require('./Controllers/blogControllers');
-const {logger} = require('./Middlewares/middles')
-
-
-
 const app = express();
+
+
+const registerRouter = require('./Routes/register')
+const loginRouter = require('./Routes/login')
+const blogRouter = require('./Routes/blogs')
+
+
 app.set('view engine', 'ejs');
 
 
@@ -26,73 +23,19 @@ app.use(express.urlencoded({ extended: true }));
 
 
 
-app.get('/register', showRegister);
 
 
-const  storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-      cb(null, './public/uploads')
-    },
-    filename: function (req, file, cb) {
-      cb(null, file.originalname)
-    }
-})
-
-const  upload = multer({ storage: storage })
-
-
-app.post('/register',upload.single('image'), createAccount);
+app.use('/', registerRouter)
 
 
 
-app.get('/login', showLogin)
+app.use('/', loginRouter)
 
 
 
-app.post('/login', verifyAccount)
+app.use('/', blogRouter)
 
 
-app.get('/addBlog', logger, showDashboard);
-
-
-
-
-app.post('/addBlog', upload.single('image'), (req, res) => {
-
-  const { title, content, author } = req.body;
-
-  const imagePath = `/uploads/${req.file.filename}`; 
-
-
-  const newBlog = {
-    title,
-    content,
-    author,
-    imagePath
-  }
-    
-  axios.post('http://localhost:3000/blogs', newBlog)
-
-  res.redirect('/allBlogs')
-
-    
-})
-
-
-
-app.get('/allBlogs', async(req, res) =>{
-  
-  try {
-    const fetchBlog = await axios.get('http://localhost:3000/blogs');
-    const blogs = fetchBlog.data;
-    console.log(blogs)
-    res.render('allBlogs', { blogs });
-  }  catch (error){
-    console.log(error);
-    res.status(500).send('Internal Server Error');
-  }
-
-});
 
 
 

@@ -60,7 +60,7 @@ exports.verifyAccount =  async (req, res) => {
       
       const users = response.data;
   
-      console.log("this is users", users)
+      // console.log("this is users", users)
   
       const user = users.find((user) => user.name === name && user.password === password);
   
@@ -83,11 +83,13 @@ exports.verifyAccount =  async (req, res) => {
   }
 
 
-exports.showDashboard =  (req, res) => {
+exports.showDashboard = async (req, res) => {
+  const api = await axios.get('http://localhost:3000/blogs')
+  const blogs = await api.data
     const name = req.name;
     const iat = req.iat
     const image = req.image
-    res.render('addBlog', { name,iat,image });
+    res.render('addBlog', { name,iat,image,blogs });
 }
   
 
@@ -100,3 +102,41 @@ exports.showLogin = (req, res) => {
 exports.showRegister = (req, res) => {
   res.render('register'); 
 }
+
+
+
+exports.createBlog =  (req, res) => {
+
+  const { title, content, author } = req.body;
+
+  const imagePath = `/uploads/${req.file.filename}`; 
+
+
+  const newBlog = {
+    title,
+    content,
+    author,
+    imagePath
+  }
+  
+  axios.post('http://localhost:3000/blogs', newBlog);
+  
+  res.redirect('/addBlog')
+   
+}
+
+
+
+exports.ShowAllblogs = async(req, res) => {
+  
+  try {
+    const fetchBlog = await axios.get('http://localhost:3000/blogs');
+    const blogs = fetchBlog.data;
+    console.log(blogs)
+    res.render('allBlogs', { blogs });
+  }  catch (error){
+    console.log(error);
+    res.status(500).send('Internal Server Error');
+  }
+
+} 
