@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/main3.css">
+    <script src="/add_blog.js" defer></script>
     <title>AddBlog</title>
 </head>
 <body>
@@ -28,7 +29,8 @@
             <form action="/addBlog" method="POST" enctype="multipart/form-data">
                 <input type="text" id="title" name="title" required placeholder="Enter your Blog title">
                 <br>
-                <input type="text" id="content" name="content" required placeholder="Enter your Blog content">
+                <textarea id="content" name="content" rows="21" cols="95" required placeholder="Enter your Blog content"></textarea>
+                <!-- <input type="text" id="content" name="content" required placeholder="Enter your Blog content"> -->
                 <br>
                 <input type="text" id="author" name="author" required placeholder="Enter your author name">
                 <br>
@@ -40,11 +42,12 @@
 
     </div>
 
+
     <div class="added-blogs">
         <h1>All Added blogs </h1>
         <div class="card">  
             <%  blogs.forEach(b => { %>
-                <div  id="<%=b.id %>" class="blog-content">
+                <div  id="card-<%=b.id %>" class="blog-content">
                     <img src="<%=b.imagePath %>" alt="" id="blog-img">
                     <div class="headers">  
                         <h2><%=b.title %></h2>
@@ -52,15 +55,31 @@
                         <h4> Blog Author: <%=b.author %></h4>
                         <div class="cta">
                             <a href="#" id="editBlog"> Edit Blog</a>
-                            <a href="#" id="deleteBlog"> Delete Blog</a>
-                        </div>
-                        
-                    </div>
-                    
+                            <a href="#" class="delete-blog" id="deleteBlog" data-blogid="<%= b.id %>">Delete Blog</a>
+                        </div>                        
+                    </div>                    
                 </div>
             <% }) %>
         </div>
     </div>
+
+
+    <footer class="foot">
+        <img src="../logo.png" alt="">
+
+        <div class="about-us">
+            <p>Travler is your ultimate online destination for all things travel. Founded in 2016 by a group of passionate globetrotters, this website has since become a trusted resource for wanderers, adventurers, and travel enthusiasts worldwide.
+            </p>
+        </div>
+
+        <div class="links">
+            <h3>Quick Links</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & conditions </a>
+            <a href="#">Services </a>
+
+        </div>
+    </footer>
 
 
 </body>

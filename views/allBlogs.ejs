@@ -27,7 +27,6 @@
         </div>
     </div>
 
-
     <div class="blog-container">     
         <h1>All Travel Blogs</h1>
         
@@ -38,7 +37,7 @@
                         <h2>Title: <%=b.title %></h2>
                         <p> Content: <%=b.content %></p>
                         <h4> Blog Author: <%=b.author %></h4>
-                        <a href="#" id="readMore"> Read More</a>
+                        <a href="/showBlog/<%= b.id %>" id="readMore"> Read More</a>
                     </div>
                     <img src="<%=b.imagePath %>" alt="">
                 </div>
@@ -46,6 +45,24 @@
         </div>
         
     </div>
+
+
+    <footer class="foot">
+        <img src="../logo.png" alt="">
+
+        <div class="about-us">
+            <p>Travler is your ultimate online destination for all things travel. Founded in 2016 by a group of passionate globetrotters, this website has since become a trusted resource for wanderers, adventurers, and travel enthusiasts worldwide.
+            </p>
+        </div>
+
+        <div class="links">
+            <h3>Quick Links</h3>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & conditions </a>
+            <a href="#">Services </a>
+
+        </div>
+    </footer>
     
 </body>
 </html>

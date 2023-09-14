@@ -101,109 +101,46 @@
   ],
   "blogs": [
     {
-      "title": "Parisian Adventure",
+      "title": "Amazing Places to visit ",
       "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
-      "author": "Smith",
+      "author": "Abdo ",
       "imagePath": "/uploads/hero-imag2.jpg",
       "id": 1
     },
     {
-      "title": "Bali Bliss",
-      "content": "Bali is a tropical paradise that exceeded all our expectations. From the lush rice terraces in Ubud to the vibrant nightlife in Seminyak, this Indonesian island offers a diverse range of experiences. We explored ancient temples, surfed the azure waves, and enjoyed traditional Balinese cuisine. One highlight was the sunrise trek to Mount Batur, where we watched the sun emerge from behind the clouds. Bali's beauty is unparalleled, and we left with a sense of peace and gratitude for this unforgettable journey.",
-      "author": "Daniel",
+      "title": "Amazing Places to visit",
+      "content": "The bustling metropolis where tradition meets modernity, is a city like no other. Our journey began at the historic Asakusa district, where the scent of street food filled the air. We visited the Senso-ji Temple, where we made wishes and explored the Nakamise Shopping Street. The neon lights of Shibuya Crossing left us in awe, as we navigated through the sea of people. A day trip to Mount Fuji provided breathtaking views, and we savored sushi at the famous Tsukiji Fish Market. Our adventure in Tokyo was an unforgettable whirlwind.",
+      "author": "mallouk",
       "imagePath": "/uploads/hero-img.jpg",
       "id": 2
     },
     {
-      "title": "Bali Bliss",
-      "content": "Bali is a tropical paradise that exceeded all our expectations. From the lush rice terraces in Ubud to the vibrant nightlife in Seminyak, this Indonesian island offers a diverse range of experiences. We explored ancient temples, surfed the azure waves, and enjoyed traditional Balinese cuisine. One highlight was the sunrise trek to Mount Batur, where we watched the sun emerge from behind the clouds. Bali's beauty is unparalleled, and we left with a sense of peace and gratitude for this unforgettable journey.",
+      "title": "Exploring Streets of Kyoto",
+      "content": "Kyoto, the cultural heart of Japan, is a city that effortlessly blends ancient traditions with modern life. From serene temples to bustling markets, Kyoto has something to offer every traveler. Join me on a journey through the enchanting streets of this historic city. Start your journey in Kyoto with a visit to the iconic Kinkaku-ji, the Golden Pavilion. Its shimmering gold leaf exterior is a sight to behold, especially on a sunny day. Take a stroll through the beautiful gardens and immerse yourself in Zen tranquility. For lunch, head to Nishiki Market, a food lover's paradise. Try local delicacies like takoyaki (octopus balls) and matcha-flavored treats. The market's vibrant atmosphere will leave you craving for more. Begin your day at Fushimi Inari Shrine, famous for its thousands of vermilion torii gates. The hike up the mountain offers stunning views of Kyoto and a unique spiritual experience. In the afternoon, indulge in a traditional tea ceremony at one of Kyoto's historic tea houses. The serene ambiance and the art of tea preparation are truly captivating.\r\n\r\nExplore Kyoto's modern side with a visit to Arashiyama Bamboo Grove. Walking through this towering bamboo forest feels like stepping into another world.\r\n\r\nEnd your journey with a relaxing boat ride on the Hozugawa River, surrounded by lush greenery and tranquility.\r\n\r\nKyoto's blend of tradition and modernity makes it a must-visit destination for any traveler seeking a unique cultural experience. The city's enchanting streets will leave you with lasting memories.\r\n\r\n\r\n\r\n\r\n",
       "author": "Daniel",
-      "imagePath": "/uploads/hero-img.jpg",
+      "imagePath": "/uploads/hero-img3.jpg",
       "id": 3
     },
     {
-      "title": "Parisian Adventure",
-      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
-      "author": "Smith",
-      "imagePath": "/uploads/hero-imag2.jpg",
+      "title": "Exploring Streets of Kyoto",
+      "content": "Kyoto, the cultural heart of Japan, is a city that effortlessly blends ancient traditions with modern life. From serene temples to bustling markets, Kyoto has something to offer every traveler. Join me on a journey through the enchanting streets of this historic city. Start your journey in Kyoto with a visit to the iconic Kinkaku-ji, the Golden Pavilion. Its shimmering gold leaf exterior is a sight to behold, especially on a sunny day. Take a stroll through the beautiful gardens and immerse yourself in Zen tranquility. For lunch, head to Nishiki Market, a food lover's paradise. Try local delicacies like takoyaki (octopus balls) and matcha-flavored treats. The market's vibrant atmosphere will leave you craving for more. Begin your day at Fushimi Inari Shrine, famous for its thousands of vermilion torii gates. The hike up the mountain offers stunning views of Kyoto and a unique spiritual experience. In the afternoon, indulge in a traditional tea ceremony at one of Kyoto's historic tea houses. The serene ambiance and the art of tea preparation are truly captivating.\\r\\n\\r\\nExplore Kyoto's modern side with a visit to Arashiyama Bamboo Grove. Walking through this towering bamboo forest feels like stepping into another world.\\r\\n\\r\\nEnd your journey with a relaxing boat ride on the Hozugawa River, surrounded by lush greenery and tranquility.\\r\\n\\r\\nKyoto's blend of tradition and modernity makes",
+      "author": "Abdo ",
+      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
       "id": 4
     },
     {
-      "title": "10 top places to travel to ",
-      "content": "The bustling metropolis where tradition meets modernity, is a city like no other. Our journey began at the historic Asakusa district, where the scent of street food filled the air. We visited the Senso-ji Temple, where we made wishes and explored the Nakamise Shopping Street. The neon lights of Shibuya Crossing left us in awe, as we navigated through the sea of people. A day trip to Mount Fuji provided breathtaking views, and we savored sushi at the famous Tsukiji Fish Market. Our adventure in Tokyo was an unforgettable whirlwind.",
-      "author": "Abdo Mallouk ",
-      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
+      "title": "The top 10 places to visit ",
+      "content": "Kyoto, the cultural heart of Japan, is a city that effortlessly blends ancient traditions with modern life. From serene temples to bustling markets, Kyoto has something to offer every traveler. Join me on a journey through the enchanting streets of this historic city. Start your journey in Kyoto with a visit to the iconic Kinkaku-ji, the Golden Pavilion. Its shimmering gold leaf exterior is a sight to behold, especially on a sunny day. Take a stroll through the beautiful gardens and immerse yourself in Zen tranquility. For lunch, head to Nishiki Market, a food lover's paradise. Try local delicacies like takoyaki (octopus balls) and matcha-flavored treats. The market's vibrant atmosphere will leave you craving for more. Begin your day at Fushimi Inari Shrine, famous for its thousands of vermilion torii gates. The hike up the mountain offers stunning views of Kyoto and a unique spiritual experience. In the afternoon, indulge in a traditional tea ceremony at one of Kyoto's historic tea houses. The serene ambiance and the art of tea preparation are truly captivating.\\r\\n\\r\\nExplore Kyoto's modern side with a visit to Arashiyama Bamboo Grove. Walking through this towering bamboo forest feels like stepping into another world.\\r\\n\\r\\nEnd your journey with a relaxing boat ride on the Hozugawa River, surrounded by lush greenery and tranquility.\\r\\n\\r\\nKyoto's blend of tradition and modernity makes",
+      "author": "John ",
+      "imagePath": "/uploads/hero-imag2.jpg",
       "id": 5
     },
     {
-      "title": "A Whirlwind Adventure in Tokyo",
-      "content": "Tokyo, the bustling metropolis where tradition meets modernity, is a city like no other. Our journey began at the historic Asakusa district, where the scent of street food filled the air. We visited the Senso-ji Temple, where we made wishes and explored the Nakamise Shopping Street. The neon lights of Shibuya Crossing left us in awe, as we navigated through the sea of people. A day trip to Mount Fuji provided breathtaking views, and we savored sushi at the famous Tsukiji Fish Market. Our adventure in Tokyo was an unforgettable whirlwind.",
+      "title": "The 10 wonderful Cities in the planet",
+      "content": "Kyoto, the cultural heart of Japan, is a city that effortlessly blends ancient traditions with modern life. From serene temples to bustling markets, Kyoto has something to offer every traveler. Join me on a journey through the enchanting streets of this historic city.\r\n\r\nDay 1: Glimpse of Tradition\r\nStart your journey in Kyoto with a visit to the iconic Kinkaku-ji, the Golden Pavilion. Its shimmering gold leaf exterior is a sight to behold, especially on a sunny day. Take a stroll through the beautiful gardens and immerse yourself in Zen tranquility.\r\n\r\nFor lunch, head to Nishiki Market, a food lover's paradise. Try local delicacies like takoyaki (octopus balls) and matcha-flavored treats. The market's vibrant atmosphere will leave you craving for more.\r\n\r\nDay 2: Temples and Tea Houses\r\nBegin your day at Fushimi Inari Shrine, famous for its thousands of vermilion torii gates. The hike up the mountain offers stunning views of Kyoto and a unique spiritual experience.\r\n\r\nIn the afternoon, indulge in a traditional tea ceremony at one of Kyoto's historic tea houses. The serene ambiance and the art of tea preparation are truly captivating.\r\n\r\nDay 3: Kyoto's Modern Side\r\nExplore Kyoto's modern side with a visit to Arashiyama Bamboo Grove. Walking through this towering bamboo forest feels like stepping into another world.\r\n\r\nEnd your journey with a relaxing boat ride on the Hozugawa River, surrounded by lush greenery and tranquility.\r\n\r\nConclusion:\r\nKyoto's blend of tradition and modernity makes it a must-visit destination for any traveler seeking a unique cultural experience. The city's enchanting streets will leave you with lasting memories.",
       "author": "Daniel",
-      "imagePath": "/uploads/hero-img3.jpg",
-      "id": 6
-    },
-    {
-      "title": "This  is the blog of ilyas",
-      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
-      "author": "Ilyas",
-      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
-      "id": 7
-    },
-    {
-      "title": "The 10 top amazing places to visit ",
-      "content": "Bali is a tropical paradise that exceeded all our expectations. From the lush rice terraces in Ubud to the vibrant nightlife in Seminyak, this Indonesian island offers a diverse range of experiences. We explored ancient temples, surfed the azure waves, and enjoyed traditional Balinese cuisine. One highlight was the sunrise trek to Mount Batur, where we watched the sun emerge from behind the clouds. Bali's beauty is unparalleled, and we left with a sense of peace and gratitude for this unforgettable journey.",
-      "author": "Johan ",
       "imagePath": "/uploads/hero-img.jpg",
-      "id": 8
-    },
-    {
-      "title": "The most inspiring places to visit   ",
-      "content": "Rabat is a tropical paradise that exceeded all our expectations. From the lush rice terraces in Ubud to the vibrant nightlife in Seminyak, this Indonesian island offers a diverse range of experiences. We explored ancient temples, surfed the azure waves, and enjoyed traditional Balinese cuisine. One highlight was the sunrise trek to Mount Batur, where we watched the sun emerge from behind the clouds. Bali's beauty is unparalleled, and we left with a sense of peace and gratitude for this unforgettable journey.",
-      "author": "Jim ",
-      "imagePath": "/uploads/hero-imag2.jpg",
-      "id": 9
-    },
-    {
-      "title": "The most inspiring places to visit in 2023",
-      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
-      "author": "Johan ",
-      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
-      "id": 10
-    },
-    {
-      "title": "amazing places ",
-      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
-      "author": "abdo",
-      "imagePath": "/uploads/hero-img3.jpg",
-      "id": 11
-    },
-    {
-      "title": "The 10 most Wonderfull Cities",
-      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
-      "author": "Ilyas",
-      "imagePath": "/uploads/1665590421705-removebg-preview.png",
-      "id": 12
-    },
-    {
-      "title": "Amazing countries ",
-      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city. Our adventure began at the Louvre, where we marveled at the Mona Lisa's enigmatic smile. We strolled along the Seine River, stopping to enjoy croissants at a quaint café. As the sun set behind Notre-Dame Cathedral, we realized that Paris had truly stolen our hearts. This trip was a dream come true.",
-      "author": "mallouk",
-      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
-      "id": 13
-    },
-    {
-      "title": "Amazing cities ",
-      "content": "The bustling metropolis where tradition meets modernity, is a city like no other. Our journey began at the historic Asakusa district, where the scent of street food filled the air. We visited the Senso-ji Temple, where we made wishes and explored the Nakamise Shopping Street. The neon lights of Shibuya Crossing left us in awe, as we navigated through the sea of people. A day trip to Mount Fuji provided breathtaking views, and we savored sushi at the famous Tsukiji Fish Market. Our adventure in Tokyo was an unforgettable whirlwind.",
-      "author": "Abdo ",
-      "imagePath": "/uploads/tom-barrett-M0AWNxnLaMw-unsplash.jpg",
-      "id": 14
-    },
-    {
-      "title": "The most wonderful places in the planet ",
-      "content": "The bustling metropolis where tradition meets modernity, is a city like no other. Our journey began at the historic Asakusa district, where the scent of street food filled the air. We visited the Senso-ji Temple, where we made wishes and explored the Nakamise Shopping Street. The neon lights of Shibuya Crossing left us in awe, as we navigated through the sea of people. A day trip to Mount Fuji provided breathtaking views, and we savored sushi at the famous Tsukiji Fish Market. Our adventure in Tokyo was an unforgettable whirlwind.",
-      "author": "Mallouk",
-      "imagePath": "/uploads/hero-imag2.jpg",
-      "id": 15
+      "id": 6
     }
   ]
 }

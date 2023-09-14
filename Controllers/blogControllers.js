@@ -140,3 +140,44 @@ exports.ShowAllblogs = async(req, res) => {
   }
 
 } 
+
+
+exports.deleteBlog = async (req, res) => {
+
+  const blogIdToDelete = req.params.id;
+
+  try {
+    const response = await axios.delete(`http://localhost:3000/blogs/${blogIdToDelete}`);
+
+    res.redirect('/addBlog')
+
+    // if (response.status === 200) {
+    //   res.status(204).send(); 
+      
+    // } else {
+    //   res.status(response.status).send(response.statusText);
+    // }
+
+  } catch (error) {
+    console.error('Error deleting blog:', error);
+    res.status(500).send('Internal Server Error');
+  }
+
+}
+
+
+
+exports.showBlog =  async (req, res) => {
+    const blogId = req.params.id
+
+  try {
+    const fetchedBlog = await axios.get(`http://localhost:3000/blogs/${blogId}`);
+    const oneBlog = fetchedBlog.data;
+    res.render('oneBlog', { oneBlog });
+
+  } catch (error) {
+    console.error('Error deleting blog:', error);
+    res.status(500).send('Internal Server Error');
+  }
+
+}
