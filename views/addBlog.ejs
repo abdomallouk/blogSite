@@ -38,7 +38,7 @@
                 <br>            
                 <input type="submit" value="Add-Blog" id="addBlog">
             </form>
-    </div>
+        </div>
 
     </div>
 
@@ -54,7 +54,7 @@
                         <p> <%=b.content %></p>
                         <h4> Blog Author: <%=b.author %></h4>
                         <div class="cta">
-                            <a href="#" id="editBlog"> Edit Blog</a>
+                            <a href="/editBlog/<%= b.id %>" id="editBlog"> Edit Blog</a>
                             <a href="#" class="delete-blog" id="deleteBlog" data-blogid="<%= b.id %>">Delete Blog</a>
                         </div>                        
                     </div>                    

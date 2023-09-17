@@ -142,6 +142,63 @@ exports.ShowAllblogs = async(req, res) => {
 } 
 
 
+
+exports.editBlog = async (req, res) => {
+  const blogIdToEdit = req.params.id;
+
+  try {
+    const fetchedBlog = await axios.get(`http://localhost:3000/blogs/${blogIdToEdit}`);
+    const editedBlog = fetchedBlog.data;
+    res.render('editedBlog', { editedBlog });
+
+  } catch (error) {
+    console.error('Error deleting blog:', error);
+    res.status(500).send('Internal Server Error');
+  }
+
+}
+
+
+
+exports.updateBlog = async (req, res) => {
+
+  try {
+
+    const { title, content, author } = req.body;
+    // const imagePath = `/uploads/${req.file.filename}`; 
+  
+    const blogId = req.params.id
+    console.log(blogId)
+  
+    const updatedBlog = {
+      title,
+      content,
+      author
+      // imagePath
+    }
+  
+    await axios.patch(`http://localhost:3000/blogs/${blogId}`, updatedBlog);
+    
+    res.redirect('/addBlog')
+
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Error updating the blog');
+  }
+}
+  
+  // try {
+  //   await axios.patch(`http://localhost:3000/blogs/${blogId}`, updatedBlog);
+  
+  //   res.redirect('/addBlog')
+  // } catch (error) {
+  //   console.error(error);
+  //   res.status(500).send('Error updating the blog');
+  // }
+ 
+
+
+
 exports.deleteBlog = async (req, res) => {
 
   const blogIdToDelete = req.params.id;
