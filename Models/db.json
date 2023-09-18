@@ -97,6 +97,20 @@
       "password": "abdoM",
       "imagePath": "/uploads/1665590421705-removebg-preview.png",
       "id": 14
+    },
+    {
+      "name": "abdoMallouk",
+      "email": "malloukab77@gmail.com",
+      "password": "abdoMallouk",
+      "imagePath": "/uploads/me.jpg",
+      "id": 15
+    },
+    {
+      "name": "abdo",
+      "email": "malloukab77@gmail.com",
+      "password": "abdo",
+      "imagePath": "/uploads/me.jpg",
+      "id": 16
     }
   ],
   "blogs": [
@@ -134,6 +148,13 @@
       "author": "abdo",
       "imagePath": "/uploads/hero-imag2.jpg",
       "id": 5
+    },
+    {
+      "title": "Amazing Places to visit",
+      "content": "Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.Paris, the City of Love, has always held a special place in my heart. From the iconic Eiffel Tower to the charming streets of Montmartre, there's something magical about every corner of this city.",
+      "author": "mallouk",
+      "imagePath": "/uploads/hero-imag2.jpg",
+      "id": 6
     }
   ]
 }

@@ -1,23 +1,10 @@
 const express = require('express');
 const router = express.Router()
 const multer = require('multer'); 
-const {logger} = require('../Middlewares/middles')
+const {logger, upload} = require('../Middlewares/middles')
 
 
 const {showDashboard, createBlog, ShowAllblogs, editBlog, updateBlog, deleteBlog, showBlog} = require('../Controllers/blogControllers');
-
-
-const  storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-      cb(null, './public/uploads')
-    },
-    filename: function (req, file, cb) {
-      cb(null, file.originalname)
-    }
-})
-
-const  upload = multer({ storage: storage })
-
 
 
 
