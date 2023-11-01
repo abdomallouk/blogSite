@@ -17,7 +17,7 @@ Before you get started, ensure you have the following dependencies installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/express-application.git
+   git clone https://github.com/abdomallouk/blogSite.git
    ```
 
 2. **Navigate to the project directory:**
